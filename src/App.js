@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="App">
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename='/web-trade-journal-react'>
         <Routes>
-            <Route exact path='/' element={<Landing />} />
+            <Route exact path='/web-trade-journal-react' element={<Landing />} />
             <Route   path='login' element={<Login />} />
             <Route  path='register' element={<Register />} />
             <Route exact path='register/dashboard' element={<Dashboard />} />
